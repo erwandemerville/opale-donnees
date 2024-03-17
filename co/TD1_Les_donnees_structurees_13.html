@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="fr">
+ <head>
+  <meta http-equiv="x-ua-compatible" content="IE=EDGE">
+  <title>Exercice&nbsp;: Contenu du Big Data [Les donn&eacute;es structur&eacute;es et leur traitement]</title>
+  <meta charset="UTF-8">
+  <meta name="generator" content="SCENARI 4.2.107 / OpaleStarter 3.7.001">
+  <meta name="revision" content="2022-10-02 11:22">
+  <link rel="start" href="TD1_Les_donnees_structurees.html" title="Les donn&eacute;es structur&eacute;es et leur traitement">
+  <meta name="author" content>
+  <meta name="keywords" content>
+  <meta name="date" content>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../lib-md/w_scImgMgr/scImgMgr.css">
+  <link rel="stylesheet" type="text/css" href="../lib-md/w_scCodeMgr/scCodeMgr.css">
+  <script type="text/JavaScript">
+/*0*/ var scServices = {id:"l8r97g5z"};
+/*1*/ window.scLoadParams = {destUri:"/co/TD1_Les_donnees_structurees_13.html", pathToRoot:"../"};
+</script>
+  <script type="text/JavaScript" src="../lib-sc/scCoLib.js"></script>
+  <script type="text/JavaScript" src="../lib-sc/scSiLib.js"></script>
+  <script type="text/JavaScript" src="../lib-sc/scTiLib.js"></script>
+  <script type="text/JavaScript" src="../lib-sc/scPaLib.js"></script>
+  <script type="text/JavaScript" src="../lib-sc/scMapMgr.js"></script>
+  <script type="text/JavaScript" src="../lib-sc/scTooltipMgr.js"></script>
+  <script type="text/JavaScript" src="../lib-sc/scDynUiMgr.js"></script>
+  <script type="text/JavaScript" src="../lib-md/s_assmnt.js"></script>
+  <script type="text/JavaScript" src="../lib-sc/scDragMgr.js"></script>
+  <script type="text/JavaScript" src="../lib-sc/scAssmntMgr.js"></script>
+  <script type="text/JavaScript" src="../lib-md/w_mathjax/mathjaxMgr.js"></script>
+  <script type="text/JavaScript" src="../lib-md/s_scSearch/scSearch.js"></script>
+  <script type="text/JavaScript" src="../lib-md/w_tplMgr/tplMgr.js"></script>
+  <script type="text/JavaScript" src="../lib-md/w_scCodeMgr/scCodeMgr.js"></script>
+  <script type="text/JavaScript" src="../lib-md/w_searchMgr/searchMgr.js"></script>
+  <script type="text/JavaScript" src="../lib-md/w_scMediaMgr/scMediaMgr.js"></script>
+  <script type="text/JavaScript" src="../lib-md/w_scImgMgr/scImgMgr.js"></script>
+  <script type="text/JavaScript" src="../lib-md/w_outMgr/outMgr.js"></script>
+  <script type="text/JavaScript">
+
+/*0*/ try{if(window.opener && window.opener.scServices && window.opener.scServices.id == scServices.id) scServices = window.opener.scServices; else if(window.parent && window.parent.scServices && window.parent.scServices.id == scServices.id) scServices = window.parent.scServices;}catch(e){}
+scCodeMgr.registerCode("des:div.code");
+
+scImgMgr.registerAdaptedImage("ide:content/des:img");
+
+scImgMgr.registerGallery("des:div.galFra");
+
+scImgMgr.registerSvg("des:svg");
+scImgMgr.registerZoom("des:a.svgZoom",{type:"svg",svgMax:1,toolbar:1,titlePath:"par:/nsi:/des:span.capTi"});
+
+scImgMgr.registerZoom("des:a.imgZoom",{toolbar:1,mag:1,titlePath:"par:/nsi:/des:span.capTi"});
+
+</script>
+  <link type="text/css" rel="stylesheet" href="../skin/css/main.css" media="all">
+  <link type="text/css" rel="stylesheet" href="../skin/css/skin.css" media="all">
+  <link type="text/css" rel="stylesheet" href="../skin/css/print.css" media="print">
+  <script type="text/JavaScript">
+outMgr.declareOutline("TD1_Les_donnees_structurees.txt");
+	</script>
+ </head>
+ <body class="default module quiz">
+  <div id="root"><header id="header" role="banner"><h1><span>Les donn&eacute;es structur&eacute;es et leur traitement</span></h1><nav role="navigation"><ul id="accessibility"><li class="waiContent"><a href="#content"><span>contenu</span></a></li><li class="waiMenu"><a href="#menu"><span>menu</span></a></li><li class="waiNav"><a href="#navigation"><span>navigation</span></a></li><li class="waiTools"><a href="#tools"><span>outils</span></a></li></ul></nav></header><main id="main" role="main"><div id="document"><div id="content" tabindex="-1"><div class="scroller"><hr class="hidden"><section class="hBk quiz article mcqMur"><h2 class="hBk_ti"><span>Exercice&nbsp;: Contenu du Big Data</span></h2><div class="hBk_co"><script type="text/JavaScript">
+var n7yN0PSZOWgXARgPu0mmA = {
+
+	fId : "n7yN0PSZOWgXARgPu0mmA",
+	fCurSeq : null,
+	initSeq : function(pCodeSeq){
+	try {
+		if(pCodeSeq==null) return;
+		if(this.fCurSeq!=null) this.closeSeq();
+		this.fCurSeq = pCodeSeq;
+		switch(this.fCurSeq) {
+
+		case "play" : {
+		var vForm = document.forms.n7yN0PSZOWgXARgPu0mmA_form;
+		for (var i=0; i < vForm.n7yN0PSZOWgXARgPu0mmA_input.length; i++) {
+			vForm.n7yN0PSZOWgXARgPu0mmA_input[i].disabled = false;
+			vForm.n7yN0PSZOWgXARgPu0mmA_input[i].checked = false;
+		}
+
+var vLoadRespSession = "";
+for (var i=0; i < vForm.n7yN0PSZOWgXARgPu0mmA_input.length; i++) {
+			var vInput = vForm.n7yN0PSZOWgXARgPu0mmA_input[i];
+			vInput.checked = scServices.assmntMgr.getResponse(this.fId, vLoadRespSession, vInput.value);
+		}
+
+		this.setSolution(false);
+scAssmntMgr.setMode(sc$("n7yN0PSZOWgXARgPu0mmA_N_globalExp"), "collapsed");
+scAssmntMgr.setMode(sc$("n7yN0PSZOWgXARgPu0mmA_N_responseTi"), "invisible");
+scAssmntMgr.setMode(sc$("n7yN0PSZOWgXARgPu0mmA_N0_choiceExp"), "collapsed");
+scAssmntMgr.setMode(sc$("n7yN0PSZOWgXARgPu0mmA_N1_choiceExp"), "collapsed");
+scAssmntMgr.setMode(sc$("n7yN0PSZOWgXARgPu0mmA_N2_choiceExp"), "collapsed");
+scAssmntMgr.setMode(sc$("n7yN0PSZOWgXARgPu0mmA_N3_choiceExp"), "collapsed");
+scAssmntMgr.setMode(sc$("n7yN0PSZOWgXARgPu0mmA_N4_choiceExp"), "collapsed");
+scAssmntMgr.setMode(sc$("n7yN0PSZOWgXARgPu0mmA_N5_choiceExp"), "collapsed");
+scAssmntMgr.setMode(sc$("n7yN0PSZOWgXARgPu0mmA_N6_choiceExp"), "collapsed");
+scAssmntMgr.setMode(sc$("n7yN0PSZOWgXARgPu0mmA_N7_choiceExp"), "collapsed");
+scAssmntMgr.setMode(sc$("n7yN0PSZOWgXARgPu0mmA_N_score"), "invisible");
+scAssmntMgr.setToggleStatus(sc$("n7yN0PSZOWgXARgPu0mmA_S_N75"), false);
+var vRespSession = "";
+		if(scServices.assmntMgr.getCompletionStatus(this.fId, vRespSession)=="notAttempt") scServices.assmntMgr.setCompletionStatus(this.fId, vRespSession, "attempt");
+		this.setResp = function(pInput, pIdx) {
+			scServices.assmntMgr.setResponse(this.fId, vRespSession, pIdx, pInput.checked);
+
+			this.computeScore();
+			scServices.assmntMgr.commit();
+		}				
+
+		this.computeScore = function() {
+
+		this.fMinPts = 0;
+		this.fMaxPts = 1;
+		this.fScorePts = true && vForm.n7yN0PSZOWgXARgPu0mmA_input[0].checked && ! vForm.n7yN0PSZOWgXARgPu0mmA_input[1].checked && vForm.n7yN0PSZOWgXARgPu0mmA_input[2].checked && vForm.n7yN0PSZOWgXARgPu0mmA_input[3].checked && vForm.n7yN0PSZOWgXARgPu0mmA_input[4].checked && ! vForm.n7yN0PSZOWgXARgPu0mmA_input[5].checked && vForm.n7yN0PSZOWgXARgPu0mmA_input[6].checked && vForm.n7yN0PSZOWgXARgPu0mmA_input[7].checked ? this.fMaxPts : this.fMinPts;
+
+		//alert("score:::::"+this.fMinPts+" - "+this.fScorePts+" - "+this.fMaxPts);
+var vScoreSession = "";
+		if(this.fScorePts != null) scServices.assmntMgr.setPts(this.fId, vScoreSession, this.fMinPts, this.fScorePts, this.fMaxPts);
+
+			this.refreshScoresFeedbacks();
+		}
+
+if(vRespSession != vLoadRespSession) {
+for (var i=0; i < vForm.n7yN0PSZOWgXARgPu0mmA_input.length; i++) {
+			var vInput = vForm.n7yN0PSZOWgXARgPu0mmA_input[i];
+			scServices.assmntMgr.setResponse(this.fId, vRespSession, vInput.value, vInput.checked);
+		}
+}
+this.computeScore();
+
+		scServices.assmntMgr.commit();
+		break;
+	}
+
+		}
+	}catch(e){alert("failed:::"+e)};
+	},
+	onActionNa1 : function(pButton){
+		if(scAssmntMgr.isDisabled(pButton)) return;
+var vSess="";
+scServices.assmntMgr.resetResponses(this.fId, vSess);
+scServices.assmntMgr.setPts(this.fId, vSess, null, null, null); 
+this.initSeq("play");
+
+		scServices.assmntMgr.commit();
+	},
+	onActionN75 : function(pButton){
+		if(scAssmntMgr.isDisabled(pButton)) return;
+		var vIsOn = scAssmntMgr.isToggleOn(pButton);
+		if(vIsOn) {
+scAssmntMgr.setMode(sc$("n7yN0PSZOWgXARgPu0mmA_N_score"), "invisible");
+this.setSolution(false); scAssmntMgr.setMode(sc$("n7yN0PSZOWgXARgPu0mmA_N_globalExp"), "collapsed");
+scAssmntMgr.setMode(sc$("n7yN0PSZOWgXARgPu0mmA_N0_choiceExp"), "collapsed"); scAssmntMgr.setMode(sc$("n7yN0PSZOWgXARgPu0mmA_N1_choiceExp"), "collapsed"); scAssmntMgr.setMode(sc$("n7yN0PSZOWgXARgPu0mmA_N2_choiceExp"), "collapsed"); scAssmntMgr.setMode(sc$("n7yN0PSZOWgXARgPu0mmA_N3_choiceExp"), "collapsed"); scAssmntMgr.setMode(sc$("n7yN0PSZOWgXARgPu0mmA_N4_choiceExp"), "collapsed"); scAssmntMgr.setMode(sc$("n7yN0PSZOWgXARgPu0mmA_N5_choiceExp"), "collapsed"); scAssmntMgr.setMode(sc$("n7yN0PSZOWgXARgPu0mmA_N6_choiceExp"), "collapsed"); scAssmntMgr.setMode(sc$("n7yN0PSZOWgXARgPu0mmA_N7_choiceExp"), "collapsed"); scAssmntMgr.setMode(sc$("n7yN0PSZOWgXARgPu0mmA_N_responseTi"), "invisible");
+var vForm=document.forms.n7yN0PSZOWgXARgPu0mmA_form; for (var i=0; i < vForm.n7yN0PSZOWgXARgPu0mmA_input.length; i++) vForm.n7yN0PSZOWgXARgPu0mmA_input[i].disabled = false; 
+		} else {
+scAssmntMgr.setMode(sc$("n7yN0PSZOWgXARgPu0mmA_N_score"), "visible");
+this.setSolution(true); scAssmntMgr.setMode(sc$("n7yN0PSZOWgXARgPu0mmA_N_globalExp"), "visible");
+scAssmntMgr.setMode(sc$("n7yN0PSZOWgXARgPu0mmA_N0_choiceExp"), "visible"); scAssmntMgr.setMode(sc$("n7yN0PSZOWgXARgPu0mmA_N1_choiceExp"), "visible"); scAssmntMgr.setMode(sc$("n7yN0PSZOWgXARgPu0mmA_N2_choiceExp"), "visible"); scAssmntMgr.setMode(sc$("n7yN0PSZOWgXARgPu0mmA_N3_choiceExp"), "visible"); scAssmntMgr.setMode(sc$("n7yN0PSZOWgXARgPu0mmA_N4_choiceExp"), "visible"); scAssmntMgr.setMode(sc$("n7yN0PSZOWgXARgPu0mmA_N5_choiceExp"), "visible"); scAssmntMgr.setMode(sc$("n7yN0PSZOWgXARgPu0mmA_N6_choiceExp"), "visible"); scAssmntMgr.setMode(sc$("n7yN0PSZOWgXARgPu0mmA_N7_choiceExp"), "visible"); scAssmntMgr.setMode(sc$("n7yN0PSZOWgXARgPu0mmA_N_responseTi"), "visible");
+var vForm=document.forms.n7yN0PSZOWgXARgPu0mmA_form; for (var i=0; i < vForm.n7yN0PSZOWgXARgPu0mmA_input.length; i++) vForm.n7yN0PSZOWgXARgPu0mmA_input[i].disabled = true; 
+		}
+		scAssmntMgr.setToggleStatus(pButton, ! vIsOn);
+		scServices.assmntMgr.commit();
+	},
+
+	closeSeq: function(){
+		var vForm = document.forms.n7yN0PSZOWgXARgPu0mmA_form;
+		switch(this.fCurSeq) {
+
+	case "play" : {
+
+		break;
+	}
+
+		}
+		this.fCurSeq = null;
+	},
+	getOnLoadSeq:function() {
+
+	return "play";
+	},
+
+	refreshScoresFeedbacks : function(){
+		
+
+		var vScoreNode = sc$("n7yN0PSZOWgXARgPu0mmA_SNc0");
+
+		var vScore = (Math.round((this.fScorePts-this.fMinPts) / (this.fMaxPts-this.fMinPts) * 100) * 1)+ 0;
+if(vScore > 99 && true) {
+			vScoreNode.innerHTML = "<span>"  + "Bonne réponse<\/span>";
+			vScoreNode.className = "answBest";
+		} else if(vScore > 49 && vScore <= 99 && true) {
+			vScoreNode.innerHTML = "<span>" + vScore + "% de bonnes réponses<\/span>";
+			vScoreNode.className = "answGood";
+		} else if(vScore > 0 && vScore <= 49 && true) {
+			vScoreNode.innerHTML = "<span>" + vScore + "% de bonnes réponses<\/span>";
+			vScoreNode.className = "answBad";
+		} else if(vScore <= 0 && true) {
+			vScoreNode.innerHTML = "<span>"  + "Mauvaise réponse <\/span>";
+			vScoreNode.className = "answWorst";
+		} else  {
+			vScoreNode.innerHTML = "";
+			vScoreNode.className = "";
+		}
+
+	},
+	solIsShown : false,
+	setSolution : function(pShown){
+		var vTRs = null;
+		var vForm = document.forms.n7yN0PSZOWgXARgPu0mmA_form;
+		var vTable = scPaLib.findNode("chi:" ,vForm);
+		if (vTable.nodeName.toLowerCase()=="table") vTRs = scPaLib.findNodes("chi:/chi:tr" ,vTable);
+		else vTRs = scPaLib.findNodes("chi:" ,vTable);
+	
+		if(!pShown && this.solIsShown) {
+			for(var i=0; i<vTRs.length; i++){
+				var vTR = vTRs[i]; 
+				var vOffs = vTR.className.indexOf("assmntSol");
+				if(vOffs>=0) vTR.className = vTR.className.substring(0, vOffs) + vTR.className.substring(vOffs+14);
+
+				var vSol = vForm.n7yN0PSZOWgXARgPu0mmA_sol[i];
+				scAssmntMgr.setMode(vSol.parentNode, "collapsed");
+				vSol.checked = false;
+				vForm.n7yN0PSZOWgXARgPu0mmA_input[i].removeAttribute("aria-hidden");
+
+			}
+		} else if(pShown && ! this.solIsShown) {
+
+			var i = 0, vTR = null;
+
+			var vSol = vForm.n7yN0PSZOWgXARgPu0mmA_sol[i];
+			scAssmntMgr.setMode(vSol.parentNode, "visible");
+			vSol.checked = true;
+			vForm.n7yN0PSZOWgXARgPu0mmA_input[i].setAttribute("aria-hidden", "true");
+
+			vTR = vTRs[i++];
+			vTR.className = "assmntSolCheck " + vTR.className;
+
+			var vSol = vForm.n7yN0PSZOWgXARgPu0mmA_sol[i];
+			scAssmntMgr.setMode(vSol.parentNode, "visible");
+			vSol.checked = false;
+			vForm.n7yN0PSZOWgXARgPu0mmA_input[i].setAttribute("aria-hidden", "true");
+
+			vTR = vTRs[i++];
+			vTR.className = "assmntSolUnche " + vTR.className;
+
+			var vSol = vForm.n7yN0PSZOWgXARgPu0mmA_sol[i];
+			scAssmntMgr.setMode(vSol.parentNode, "visible");
+			vSol.checked = true;
+			vForm.n7yN0PSZOWgXARgPu0mmA_input[i].setAttribute("aria-hidden", "true");
+
+			vTR = vTRs[i++];
+			vTR.className = "assmntSolCheck " + vTR.className;
+
+			var vSol = vForm.n7yN0PSZOWgXARgPu0mmA_sol[i];
+			scAssmntMgr.setMode(vSol.parentNode, "visible");
+			vSol.checked = true;
+			vForm.n7yN0PSZOWgXARgPu0mmA_input[i].setAttribute("aria-hidden", "true");
+
+			vTR = vTRs[i++];
+			vTR.className = "assmntSolCheck " + vTR.className;
+
+			var vSol = vForm.n7yN0PSZOWgXARgPu0mmA_sol[i];
+			scAssmntMgr.setMode(vSol.parentNode, "visible");
+			vSol.checked = true;
+			vForm.n7yN0PSZOWgXARgPu0mmA_input[i].setAttribute("aria-hidden", "true");
+
+			vTR = vTRs[i++];
+			vTR.className = "assmntSolCheck " + vTR.className;
+
+			var vSol = vForm.n7yN0PSZOWgXARgPu0mmA_sol[i];
+			scAssmntMgr.setMode(vSol.parentNode, "visible");
+			vSol.checked = false;
+			vForm.n7yN0PSZOWgXARgPu0mmA_input[i].setAttribute("aria-hidden", "true");
+
+			vTR = vTRs[i++];
+			vTR.className = "assmntSolUnche " + vTR.className;
+
+			var vSol = vForm.n7yN0PSZOWgXARgPu0mmA_sol[i];
+			scAssmntMgr.setMode(vSol.parentNode, "visible");
+			vSol.checked = true;
+			vForm.n7yN0PSZOWgXARgPu0mmA_input[i].setAttribute("aria-hidden", "true");
+
+			vTR = vTRs[i++];
+			vTR.className = "assmntSolCheck " + vTR.className;
+
+			var vSol = vForm.n7yN0PSZOWgXARgPu0mmA_sol[i];
+			scAssmntMgr.setMode(vSol.parentNode, "visible");
+			vSol.checked = true;
+			vForm.n7yN0PSZOWgXARgPu0mmA_input[i].setAttribute("aria-hidden", "true");
+
+			vTR = vTRs[i++];
+			vTR.className = "assmntSolCheck " + vTR.className;
+
+		}
+		this.solIsShown = pShown;
+	},
+	onLoad: function(){
+		this.initSeq(this.getOnLoadSeq()); 
+		var vNodeRoot = sc$("n7yN0PSZOWgXARgPu0mmA_A");
+		vNodeRoot.style.display = "block"; 
+	},
+	onUnload: function(){
+		this.closeSeq();
+	},
+	loadSortKey: "A",
+	unloadSortKey: "A"
+};
+
+scOnLoads[scOnLoads.length] = n7yN0PSZOWgXARgPu0mmA;
+scOnUnloads[scOnUnloads.length] = n7yN0PSZOWgXARgPu0mmA;
+</script><div id="n7yN0PSZOWgXARgPu0mmA_A" style="display:none;"><div class="quizBody"><div class="question"><div class="rBk "><div class="txtRes "><div class="txt "><p>Parmi la liste suivante, cochez les donn&eacute;es faisant partie du Big Data</p></div><div class="img rgt "><figure role="group" class="resInFlow jpeg"><div class="resInFlow_co "><a href="../res/big-data-predictions.jpg" class="imgZoom" target="_blank" onclick="scImgMgr.loading(); return false;" title="Cliquez pour agrandir (nouvelle fen&ecirc;tre)"><img src="../res/big-data-predictions_1.jpg" width="300" height="169" alt></a></div></figure></div></div></div></div><div class="response" aria-live="polite"><h3 id="n7yN0PSZOWgXARgPu0mmA_N_responseTi" class="response_ti"><span aria-hidden="true"><span>Votre choix</span></span><span><span>Choix attendu</span></span><span aria-hidden="true"><span>R&eacute;ponse</span></span></h3><form action name="n7yN0PSZOWgXARgPu0mmA_form" id="n7yN0PSZOWgXARgPu0mmA_form"><ul class="choiceList "><li class="choiceList_ch "><div class="choiceList_in "><input type="checkbox" name="n7yN0PSZOWgXARgPu0mmA_input" id="n7yN0PSZOWgXARgPu0mmA_in0" value="0" onclick="n7yN0PSZOWgXARgPu0mmA.setResp(this, 0);" aria-labelledby="n7yN0PSZOWgXARgPu0mmA_lbl0"></div><div class="choiceList_sol " style="display:none;"><input type="checkbox" name="n7yN0PSZOWgXARgPu0mmA_sol" id="n7yN0PSZOWgXARgPu0mmA_sol0" value disabled aria-labelledby="n7yN0PSZOWgXARgPu0mmA_lbl0"></div><div class="choiceList_la " id="n7yN0PSZOWgXARgPu0mmA_lbl0"><div class="choice"><div class="label"><p>La distance que vous avez parcourue pendant vos vacances,</p></div></div></div></li><li class="choiceList_ch "><div class="choiceList_in "><input type="checkbox" name="n7yN0PSZOWgXARgPu0mmA_input" id="n7yN0PSZOWgXARgPu0mmA_in1" value="1" onclick="n7yN0PSZOWgXARgPu0mmA.setResp(this, 1);" aria-labelledby="n7yN0PSZOWgXARgPu0mmA_lbl1"></div><div class="choiceList_sol " style="display:none;"><input type="checkbox" name="n7yN0PSZOWgXARgPu0mmA_sol" id="n7yN0PSZOWgXARgPu0mmA_sol1" value disabled aria-labelledby="n7yN0PSZOWgXARgPu0mmA_lbl1"></div><div class="choiceList_la " id="n7yN0PSZOWgXARgPu0mmA_lbl1"><div class="choice"><div class="label"><p>Vos SMS envoy&eacute;s &agrave; vos amis,</p></div></div></div></li><li class="choiceList_ch "><div class="choiceList_in "><input type="checkbox" name="n7yN0PSZOWgXARgPu0mmA_input" id="n7yN0PSZOWgXARgPu0mmA_in2" value="2" onclick="n7yN0PSZOWgXARgPu0mmA.setResp(this, 2);" aria-labelledby="n7yN0PSZOWgXARgPu0mmA_lbl2"></div><div class="choiceList_sol " style="display:none;"><input type="checkbox" name="n7yN0PSZOWgXARgPu0mmA_sol" id="n7yN0PSZOWgXARgPu0mmA_sol2" value disabled aria-labelledby="n7yN0PSZOWgXARgPu0mmA_lbl2"></div><div class="choiceList_la " id="n7yN0PSZOWgXARgPu0mmA_lbl2"><div class="choice"><div class="label"><p>Les r&eacute;sultats de votre application &quot;Sant&eacute;&quot; de votre smartphone,</p></div></div></div></li><li class="choiceList_ch "><div class="choiceList_in "><input type="checkbox" name="n7yN0PSZOWgXARgPu0mmA_input" id="n7yN0PSZOWgXARgPu0mmA_in3" value="3" onclick="n7yN0PSZOWgXARgPu0mmA.setResp(this, 3);" aria-labelledby="n7yN0PSZOWgXARgPu0mmA_lbl3"></div><div class="choiceList_sol " style="display:none;"><input type="checkbox" name="n7yN0PSZOWgXARgPu0mmA_sol" id="n7yN0PSZOWgXARgPu0mmA_sol3" value disabled aria-labelledby="n7yN0PSZOWgXARgPu0mmA_lbl3"></div><div class="choiceList_la " id="n7yN0PSZOWgXARgPu0mmA_lbl3"><div class="choice"><div class="label"><p>Le contenu de vos r&eacute;seaux sociaux,</p></div></div></div></li><li class="choiceList_ch "><div class="choiceList_in "><input type="checkbox" name="n7yN0PSZOWgXARgPu0mmA_input" id="n7yN0PSZOWgXARgPu0mmA_in4" value="4" onclick="n7yN0PSZOWgXARgPu0mmA.setResp(this, 4);" aria-labelledby="n7yN0PSZOWgXARgPu0mmA_lbl4"></div><div class="choiceList_sol " style="display:none;"><input type="checkbox" name="n7yN0PSZOWgXARgPu0mmA_sol" id="n7yN0PSZOWgXARgPu0mmA_sol4" value disabled aria-labelledby="n7yN0PSZOWgXARgPu0mmA_lbl4"></div><div class="choiceList_la " id="n7yN0PSZOWgXARgPu0mmA_lbl4"><div class="choice"><div class="label"><p>Vos commandes en ligne,</p></div></div></div></li><li class="choiceList_ch "><div class="choiceList_in "><input type="checkbox" name="n7yN0PSZOWgXARgPu0mmA_input" id="n7yN0PSZOWgXARgPu0mmA_in5" value="5" onclick="n7yN0PSZOWgXARgPu0mmA.setResp(this, 5);" aria-labelledby="n7yN0PSZOWgXARgPu0mmA_lbl5"></div><div class="choiceList_sol " style="display:none;"><input type="checkbox" name="n7yN0PSZOWgXARgPu0mmA_sol" id="n7yN0PSZOWgXARgPu0mmA_sol5" value disabled aria-labelledby="n7yN0PSZOWgXARgPu0mmA_lbl5"></div><div class="choiceList_la " id="n7yN0PSZOWgXARgPu0mmA_lbl5"><div class="choice"><div class="label"><p>Votre conversation t&eacute;l&eacute;phonique avec vos grands-parents,</p></div></div></div></li><li class="choiceList_ch "><div class="choiceList_in "><input type="checkbox" name="n7yN0PSZOWgXARgPu0mmA_input" id="n7yN0PSZOWgXARgPu0mmA_in6" value="6" onclick="n7yN0PSZOWgXARgPu0mmA.setResp(this, 6);" aria-labelledby="n7yN0PSZOWgXARgPu0mmA_lbl6"></div><div class="choiceList_sol " style="display:none;"><input type="checkbox" name="n7yN0PSZOWgXARgPu0mmA_sol" id="n7yN0PSZOWgXARgPu0mmA_sol6" value disabled aria-labelledby="n7yN0PSZOWgXARgPu0mmA_lbl6"></div><div class="choiceList_la " id="n7yN0PSZOWgXARgPu0mmA_lbl6"><div class="choice"><div class="label"><p>Les donn&eacute;es des enregistrements des syst&egrave;mes de s&eacute;curit&eacute; de votre maison pendant votre absence (cam&eacute;ra, capteur de mouvements...),</p></div></div></div></li><li class="choiceList_ch "><div class="choiceList_in "><input type="checkbox" name="n7yN0PSZOWgXARgPu0mmA_input" id="n7yN0PSZOWgXARgPu0mmA_in7" value="7" onclick="n7yN0PSZOWgXARgPu0mmA.setResp(this, 7);" aria-labelledby="n7yN0PSZOWgXARgPu0mmA_lbl7"></div><div class="choiceList_sol " style="display:none;"><input type="checkbox" name="n7yN0PSZOWgXARgPu0mmA_sol" id="n7yN0PSZOWgXARgPu0mmA_sol7" value disabled aria-labelledby="n7yN0PSZOWgXARgPu0mmA_lbl7"></div><div class="choiceList_la " id="n7yN0PSZOWgXARgPu0mmA_lbl7"><div class="choice"><div class="label"><p>Le montant d'un don sur youtube ou Twitch pour Squeezie ou votre youtubeur pr&eacute;f&eacute;r&eacute;,</p></div></div></div></li></ul></form></div><div class="toolbar"><a role="button" title="Afficher le score et la correction" href="#" onkeydown="scDynUiMgr.handleBtnKeyDwn(event);" onkeyup="scDynUiMgr.handleBtnKeyUp(event);" onclick="n7yN0PSZOWgXARgPu0mmA.onActionN75(this); return false;" class="btnQuiz correction " id="n7yN0PSZOWgXARgPu0mmA_S_N75"><span>Correction</span></a><a role="button" title="Effacer les r&eacute;ponses" href="#" onkeydown="scDynUiMgr.handleBtnKeyDwn(event);" onkeyup="scDynUiMgr.handleBtnKeyUp(event);" onclick="n7yN0PSZOWgXARgPu0mmA.onActionNa1(this); return false;" class="btnQuiz reset "><span>Recommencer</span></a><span class="scoreBox"><span class="score " aria-live="polite" id="n7yN0PSZOWgXARgPu0mmA_N_score"><span id="n7yN0PSZOWgXARgPu0mmA_SNc0"><span></span></span></span></span></div></div></div></div></section></div></div><div id="navigation" tabindex="-1"><hr class="hidden"><nav class="pageTurner" role="navigation"><ul><li><a rel="prev" href="TD1_Les_donnees_structurees_12.html" target="_self" class="btnNav prev" title="Pr&eacute;c&eacute;dent (Stockage des donn&eacute;es personnelles&nbsp;: le BIG DATA)"><span>Pr&eacute;c&eacute;dent</span></a></li><li><a rel="next" href="TD1_Les_donnees_structurees_14.html" target="_self" class="btnNav next" title="Suivant (Les m&eacute;tadonn&eacute;es)"><span>Suivant</span></a></li></ul></nav></div></div><div id="toolbox"><nav id="menu" class="pageSelector" role="navigation" tabindex="-1" aria-label="menu principal"><hr class="hidden"><ul class="mnu static" data-totalPages="26"><li class="sel_no anc_no type_l  dpt_0 obj"><div class="lbl type_l" id="TD1_Les_donnees_structurees_1.html"><a href="TD1_Les_donnees_structurees_1.html" target="_self" class="item"><span>Objectifs</span></a></div></li><li class="sel_no anc_no type_l  dpt_0 intro"><div class="lbl type_l" id="TD1_Les_donnees_structurees_2.html"><a href="TD1_Les_donnees_structurees_2.html" target="_self" class="item"><span>Introduction</span></a></div></li><li class="sel_no anc_yes type_b  dpt_0 ueDiv"><div class="lbl type_b" id="TD1_Les_donnees_structurees_3.html"><a href="TD1_Les_donnees_structurees_3.html" target="_self" class="item" type="up"><span>Qu'est-ce qu'une donn&eacute;e&nbsp;?</span></a></div><ul class="sub mnu_open"><li class="sel_no anc_no type_l  dpt_1 expUc"><div class="lbl type_l" id="TD1_Les_donnees_structurees_10.html"><a href="TD1_Les_donnees_structurees_10.html" target="_self" class="item"><span>L'histoire des donn&eacute;es</span></a></div></li><li class="sel_no anc_no type_l  dpt_1 quiz"><div class="lbl type_l" id="TD1_Les_donnees_structurees_11.html"><a href="TD1_Les_donnees_structurees_11.html" target="_self" class="item"><span>Exercice&nbsp;: Les donn&eacute;es personnelles</span></a></div></li><li class="sel_no anc_no type_l  dpt_1 expUc"><div class="lbl type_l" id="TD1_Les_donnees_structurees_12.html"><a href="TD1_Les_donnees_structurees_12.html" target="_self" class="item"><span>Stockage des donn&eacute;es personnelles&nbsp;: le BIG DATA</span></a></div></li><li class="sel_yes anc_no type_l  dpt_1 quiz"><div class="lbl type_l" id="TD1_Les_donnees_structurees_13.html"><span class="item"><span>Exercice&nbsp;: Contenu du Big Data</span></span></div></li><li class="sel_no anc_no type_l  dpt_1 expUc"><div class="lbl type_l" id="TD1_Les_donnees_structurees_14.html"><a href="TD1_Les_donnees_structurees_14.html" target="_self" class="item"><span>Les m&eacute;tadonn&eacute;es</span></a></div></li></ul></li><li class="sel_no anc_no type_b  type_b_c dpt_0 ueDiv"><div class="lbl type_b" id="TD1_Les_donnees_structurees_4.html"><a href="TD1_Les_donnees_structurees_4.html" target="_self" class="item"><span>Qu'est-ce qu'une donn&eacute;e structur&eacute;e&nbsp;?</span></a></div></li><li class="sel_no anc_no type_b  type_b_c dpt_0 ueDiv"><div class="lbl type_b" id="TD1_Les_donnees_structurees_5.html"><a href="TD1_Les_donnees_structurees_5.html" target="_self" class="item"><span>Traitement des donn&eacute;es structur&eacute;es</span></a></div></li><li class="sel_no anc_no type_b  type_b_c dpt_0 ueDiv"><div class="lbl type_b" id="TD1_Les_donnees_structurees_6.html"><a href="TD1_Les_donnees_structurees_6.html" target="_self" class="item"><span>La t&ecirc;te dans les nuages (le cloud)</span></a></div></li><li class="sel_no anc_no type_b  type_b_c dpt_0 ueDiv"><div class="lbl type_b" id="TD1_Les_donnees_structurees_7.html"><a href="TD1_Les_donnees_structurees_7.html" target="_self" class="item"><span>Bilan-Synth&egrave;se</span></a></div></li><li class="sel_no anc_no type_b  type_b_c dpt_0 ueDiv"><div class="lbl type_b" id="TD1_Les_donnees_structurees_8.html"><a href="TD1_Les_donnees_structurees_8.html" target="_self" class="item"><span>Un peu d'orientation</span></a></div></li><li class="sel_no anc_no type_l  dpt_0 conclu"><div class="lbl type_l" id="TD1_Les_donnees_structurees_9.html"><a href="TD1_Les_donnees_structurees_9.html" target="_self" class="item"><span>Conclusion</span></a></div></li></ul></nav><div id="tools" tabindex="-1"><hr class="hidden"><nav class="headingSelector" role="navigation"><ul class="mnu"><li class="anc_no home" data-position="uncle"><div class="lbl"><a href="TD1_Les_donnees_structurees.html" target="_self" class="item" type="index" title="Page d'accueil du module"><span>Accueil</span></a></div></li><li class="anc_yes module" data-position="ancestor"><div class="lbl"><span class="item"><span>Module</span></span></div></li></ul></nav></div></div></main><footer id="footer" role="contentinfo" tabindex="-1"><hr class="hidden"><span class="legalInfo">
+								<span>Thibault Guilbert - 15/09/2020</span>
+								</span><a id="linkSp" target="_blank" href="https://www.scenari.org" title="R&eacute;alis&eacute; avec Scenari (nouvelle fen&ecirc;tre)"><span><img alt="R&eacute;alis&eacute; avec Scenari (nouvelle fen&ecirc;tre)" src="../skin/img/tpl/scBtn.png"></span></a></footer></div>
+  <script type="text/JavaScript" src="../skin/js/skin.js"></script>
+  <script type="text/javascript">tplMgr.init();scCodeMgr.init();scMediaMgr.init("ide:content/chi:div/chi:section/des:.mediaPlayer",{processYoutubeUrls :true});scImgMgr.init();outMgr.init();</script>
+ </body>
+</html>
